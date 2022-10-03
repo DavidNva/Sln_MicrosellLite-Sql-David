@@ -1,0 +1,164 @@
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.csprojAssemblyReference.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CoreCompileInputs.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CopyComplete
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.csprojAssemblyReference.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CoreCompileInputs.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CopyComplete
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+E:\DISI\Sln_MicrosellLite Sql\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+E:\DISI\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+E:\DISI\Sln_MicrosellLite Sql\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csprojResolveAssemblyReference.cache
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_categoria.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_Marca.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.Cache
+E:\DISI\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csprojResolveAssemblyReference.cache
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_categoria.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_Marca.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.Cache
+D:\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.AssemblyReference.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_categoria.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_Marca.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CoreCompileInputs.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CopyComplete
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Microsell_Lite.exe.config
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Microsell_Lite.exe
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Microsell_Lite.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Datos.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Datos.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Entidad.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\bin\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.AssemblyReference.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.SuggestedBindingRedirects.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Filtro.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Login.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Frm_Principal.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Explo_Prod.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Reg_Prod.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Properties.Resources.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_categoria.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Cant.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Edit_Precio.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Ventas.Frm_Ventana_Ventas.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.GenerateResource.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.exe.licenses
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CoreCompileInputs.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.csproj.CopyComplete
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.exe
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_marca.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_SiNo.resources

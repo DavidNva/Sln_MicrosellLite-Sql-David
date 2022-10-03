@@ -1,0 +1,51 @@
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.pdb
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csprojAssemblyReference.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CoreCompileInputs.cache
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CopyComplete
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.dll
+D:\Archivos de Visual Studio\Proyectos 2019\Proyectos en CSharp\Microsell Lite\Sln_MicrosellLite\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.pdb
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csprojResolveAssemblyReference.cache
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.dll
+E:\DISI\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.pdb
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.dll
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.pdb
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.dll
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.dll
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.pdb
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.pdb
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csprojResolveAssemblyReference.cache
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.dll
+D:\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.AssemblyReference.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CoreCompileInputs.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CopyComplete
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-DISI\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Negocio.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Datos.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\bin\Debug\Prj_Capa_Entidad.pdb
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.AssemblyReference.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CoreCompileInputs.cache
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.csproj.CopyComplete
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.dll
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Prj_Capa_Negocio\obj\Debug\Prj_Capa_Negocio.pdb
