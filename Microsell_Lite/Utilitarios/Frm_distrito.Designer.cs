@@ -1,6 +1,6 @@
 ﻿namespace Microsell_Lite.Utilitarios
 {
-    partial class Frm_marca
+    partial class Frm_distrito
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_marca));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_distrito));
             this.pnl_titu = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_Add = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
@@ -39,9 +39,9 @@
             this.txt_Id = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_cancel = new Klik.Windows.Forms.v1.EntryLib.ELButton();
-            this.lsv_Marca = new System.Windows.Forms.ListView();
-            this.btnEliminar = new System.Windows.Forms.Button();
+            this.lsv_Distrito = new System.Windows.Forms.ListView();
             this.btn_cerrar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.btn_Edit = new System.Windows.Forms.Button();
             this.btn_Add = new System.Windows.Forms.Button();
             this.pnl_titu.SuspendLayout();
@@ -61,7 +61,7 @@
             this.pnl_titu.Location = new System.Drawing.Point(0, 0);
             this.pnl_titu.Name = "pnl_titu";
             this.pnl_titu.Size = new System.Drawing.Size(421, 43);
-            this.pnl_titu.TabIndex = 10;
+            this.pnl_titu.TabIndex = 17;
             this.pnl_titu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnl_titu_MouseMove);
             // 
             // label1
@@ -71,9 +71,9 @@
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(9, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 20);
+            this.label1.Size = new System.Drawing.Size(190, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mantenimiento de Marca";
+            this.label1.Text = "Mantenimiento de Distrito";
             // 
             // panel_Add
             // 
@@ -106,11 +106,11 @@
             this.panel_Add.Controls.Add(this.txt_Id);
             this.panel_Add.Controls.Add(this.label2);
             this.panel_Add.Controls.Add(this.btn_cancel);
-            this.panel_Add.Location = new System.Drawing.Point(63, 123);
+            this.panel_Add.Location = new System.Drawing.Point(63, 126);
             this.panel_Add.Name = "panel_Add";
             this.panel_Add.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.panel_Add.Size = new System.Drawing.Size(296, 236);
-            this.panel_Add.TabIndex = 11;
+            this.panel_Add.TabIndex = 18;
             this.panel_Add.Visible = false;
             this.panel_Add.VisualStyle = Klik.Windows.Forms.v1.Common.ControlVisualStyles.Custom;
             // 
@@ -193,9 +193,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(24, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 16);
+            this.label3.Size = new System.Drawing.Size(119, 16);
             this.label3.TabIndex = 9;
-            this.label3.Text = "Nombre de Marca";
+            this.label3.Text = "Nombre de Distrito";
             // 
             // txt_Id
             // 
@@ -212,9 +212,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(24, 13);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 16);
+            this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Id Marca";
+            this.label2.Text = "Id Distrito";
             // 
             // btn_cancel
             // 
@@ -247,34 +247,16 @@
             this.btn_cancel.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_cancel.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
             // 
-            // lsv_Marca
+            // lsv_Distrito
             // 
-            this.lsv_Marca.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lsv_Marca.ForeColor = System.Drawing.Color.DimGray;
-            this.lsv_Marca.HideSelection = false;
-            this.lsv_Marca.Location = new System.Drawing.Point(10, 107);
-            this.lsv_Marca.Name = "lsv_Marca";
-            this.lsv_Marca.Size = new System.Drawing.Size(400, 286);
-            this.lsv_Marca.TabIndex = 14;
-            this.lsv_Marca.UseCompatibleStateImageBehavior = false;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEliminar.FlatAppearance.BorderSize = 0;
-            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
-            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(363, 46);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(48, 55);
-            this.btnEliminar.TabIndex = 16;
-            this.btnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            this.lsv_Distrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsv_Distrito.ForeColor = System.Drawing.Color.DimGray;
+            this.lsv_Distrito.HideSelection = false;
+            this.lsv_Distrito.Location = new System.Drawing.Point(10, 110);
+            this.lsv_Distrito.Name = "lsv_Distrito";
+            this.lsv_Distrito.Size = new System.Drawing.Size(400, 286);
+            this.lsv_Distrito.TabIndex = 21;
+            this.lsv_Distrito.UseCompatibleStateImageBehavior = false;
             // 
             // btn_cerrar
             // 
@@ -294,6 +276,24 @@
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
+            // btnEliminar
+            // 
+            this.btnEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btnEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
+            this.btnEliminar.Location = new System.Drawing.Point(363, 49);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(48, 55);
+            this.btnEliminar.TabIndex = 22;
+            this.btnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
             // btn_Edit
             // 
             this.btn_Edit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -304,10 +304,10 @@
             this.btn_Edit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Edit.ForeColor = System.Drawing.Color.White;
             this.btn_Edit.Image = global::Microsell_Lite.Properties.Resources.pencil_striped_symbol_for_interface_edit_buttons_icon_icons_com_56782__1_;
-            this.btn_Edit.Location = new System.Drawing.Point(286, 55);
+            this.btn_Edit.Location = new System.Drawing.Point(286, 58);
             this.btn_Edit.Name = "btn_Edit";
             this.btn_Edit.Size = new System.Drawing.Size(37, 42);
-            this.btn_Edit.TabIndex = 13;
+            this.btn_Edit.TabIndex = 20;
             this.btn_Edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Edit.UseVisualStyleBackColor = true;
             this.btn_Edit.Click += new System.EventHandler(this.btn_Edit_Click);
@@ -322,29 +322,29 @@
             this.btn_Add.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Add.ForeColor = System.Drawing.Color.White;
             this.btn_Add.Image = global::Microsell_Lite.Properties.Resources.plus_icon_icons_com_69322__1_;
-            this.btn_Add.Location = new System.Drawing.Point(329, 55);
+            this.btn_Add.Location = new System.Drawing.Point(329, 58);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(33, 42);
-            this.btn_Add.TabIndex = 12;
+            this.btn_Add.TabIndex = 19;
             this.btn_Add.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Add.UseVisualStyleBackColor = true;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
-            // Frm_marca
+            // Frm_distrito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(421, 399);
-            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.pnl_titu);
             this.Controls.Add(this.panel_Add);
-            this.Controls.Add(this.lsv_Marca);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.lsv_Distrito);
             this.Controls.Add(this.btn_Edit);
             this.Controls.Add(this.btn_Add);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_marca";
-            this.Text = "Frm_marca";
-            this.Load += new System.EventHandler(this.Frm_marca_Load);
+            this.Name = "Frm_distrito";
+            this.Text = "Frm_distrito";
+            this.Load += new System.EventHandler(this.Frm_distrito_Load);
             this.pnl_titu.ResumeLayout(false);
             this.pnl_titu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panel_Add)).EndInit();
@@ -370,9 +370,9 @@
         private System.Windows.Forms.TextBox txt_Id;
         private System.Windows.Forms.Label label2;
         private Klik.Windows.Forms.v1.EntryLib.ELButton btn_cancel;
-        private System.Windows.Forms.ListView lsv_Marca;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.ListView lsv_Distrito;
         private System.Windows.Forms.Button btn_Edit;
         private System.Windows.Forms.Button btn_Add;
-        private System.Windows.Forms.Button btnEliminar;
     }
 }

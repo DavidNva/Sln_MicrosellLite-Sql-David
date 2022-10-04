@@ -18,8 +18,9 @@ namespace Microsell_Lite
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_marca());
+            //Application.Run(new Frm_marca());
             //Application.Run(new Frm_categoria());
+            Application.Run(new Frm_distrito());
         }
     }
 }

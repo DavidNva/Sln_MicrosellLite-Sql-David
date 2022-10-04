@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BDConexion.cs" />
     <Compile Include="BD_Categoria.cs" />
+    <Compile Include="BD_Distrito.cs" />
     <Compile Include="BD_Marca.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
