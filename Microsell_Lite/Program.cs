@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsell_Lite.Productos;
 using Microsell_Lite.Utilitarios;
+using Microsell_Lite.Proveedor;
 
 namespace Microsell_Lite
 {
@@ -21,6 +22,7 @@ namespace Microsell_Lite
             //Application.Run(new Frm_marca());
             //Application.Run(new Frm_categoria());
             Application.Run(new Frm_distrito());
+            //Application.Run(new Frm_AddProveedor());
         }
     }
 }
