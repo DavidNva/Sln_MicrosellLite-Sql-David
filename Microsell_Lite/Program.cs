@@ -21,8 +21,8 @@ namespace Microsell_Lite
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Frm_marca());
             //Application.Run(new Frm_categoria());
-            Application.Run(new Frm_distrito());
-            //Application.Run(new Frm_AddProveedor());
+            //Application.Run(new Frm_distrito());
+            Application.Run(new Frm_AddProveedor());
         }
     }
 }
