@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Prj_Capa_Entidad;
 using Prj_Capa_Negocio;
+using Microsell_Lite.Utilitarios;
 
 namespace Microsell_Lite.Proveedor
 {
@@ -18,6 +19,7 @@ namespace Microsell_Lite.Proveedor
         {
             InitializeComponent();
         }
+
         string xFotoruta;
         private void lblFotoPerfil_Click(object sender, EventArgs e)
         {
@@ -39,21 +41,24 @@ namespace Microsell_Lite.Proveedor
                 MessageBox.Show("Error al guardar el personal" + ex.Message + ex.StackTrace);
             }
         }
-        /*
+        
         private bool Validar_TextBox()
         {
+            Frm_Filtro Fil = new Frm_Filtro();
+            Frm_Advertencia Ver = new Frm_Advertencia();
             if (txt_IDProveedor.Text.Trim().Length < 2)
             {
-                Fil.show();
+                Fil.Show();
                 Ver.lbl_msjl.Text = "Ingresa o gener el ID del proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
                 return false;
+                
             }
 
             if (txtNombreProveedor.Text.Trim().Length < 2)
             {
-                Fil.show();
+                Fil.Show();
                 Ver.lbl_msjl.Text = "Ingresa o genera un nombre para el proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
@@ -62,7 +67,7 @@ namespace Microsell_Lite.Proveedor
 
             if (txtRuc.Text.Trim().Length < 2)
             {
-                Fil.show();
+                Fil.Show();
                 Ver.lbl_msjl.Text = "Ingresa o genera un nombre para el proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
@@ -72,7 +77,7 @@ namespace Microsell_Lite.Proveedor
         }
         private void Registrar_Proveedor()
         {
-            RN_Proveedor p = new RN_Proveedor();
+            RN_Proveedor obj = new RN_Proveedor();
             EN_Proveedor pro = new EN_Proveedor();
 
             try
@@ -85,12 +90,29 @@ namespace Microsell_Lite.Proveedor
                 pro.Correo = txtCorreo.Text;
                 pro.Contacto = txtContacto.Text;
                 pro.FotoLogo = xFotoruta;
-            }
-            catch (Exception)
-            {
 
-                throw;
+                obj.RN_Registrar_Proveedor(pro);
+                limpiarForm();
+                this.Tag = "A";
+                this.Close();
             }
-        }*/
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al guardar" + ex.Message + ex.StackTrace, "Form Add Proveedor",
+                                MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }   
+        }
+
+        private void limpiarForm()
+        {
+            txt_IDProveedor.Text = "";
+            txtNombreProveedor.Text = "";
+            txtDireccion.Text = "";
+            txtRubro.Text = "";
+            txtRuc.Text = "";
+            txtCorreo.Text = "";
+            txtContacto.Text = "";
+            xFotoruta = "";
+        }
     }
 }
