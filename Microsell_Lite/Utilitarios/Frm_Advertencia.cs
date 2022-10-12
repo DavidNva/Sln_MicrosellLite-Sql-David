@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Prj_Capa_Negocio;
 
 namespace Microsell_Lite.Utilitarios
 {
@@ -15,6 +16,33 @@ namespace Microsell_Lite.Utilitarios
         public Frm_Advertencia()
         {
             InitializeComponent();
+        }
+
+        private void Frm_Advertencia_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frm_Advertencia_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                Utilitario obj = new Utilitario();
+                obj.Mover_formulario(this);
+            }
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Frm_Advertencia_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnAceptar_Click(sender, e);
+            }
         }
     }
 }

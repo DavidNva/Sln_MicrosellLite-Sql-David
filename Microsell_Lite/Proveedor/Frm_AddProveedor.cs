@@ -11,6 +11,7 @@ using Prj_Capa_Entidad;
 using Prj_Capa_Negocio;
 using Microsell_Lite.Utilitarios;
 
+
 namespace Microsell_Lite.Proveedor
 {
     public partial class Frm_AddProveedor : Form
@@ -49,7 +50,7 @@ namespace Microsell_Lite.Proveedor
             if (txt_IDProveedor.Text.Trim().Length < 2)
             {
                 Fil.Show();
-                Ver.lbl_msjl.Text = "Ingresa o gener el ID del proveedor";
+                //Ver. = "Ingresa o gener el ID del proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
                 return false;
@@ -59,7 +60,7 @@ namespace Microsell_Lite.Proveedor
             if (txtNombreProveedor.Text.Trim().Length < 2)
             {
                 Fil.Show();
-                Ver.lbl_msjl.Text = "Ingresa o genera un nombre para el proveedor";
+                Ver.Text = "Ingresa o genera un nombre para el proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
                 return false;
@@ -68,7 +69,7 @@ namespace Microsell_Lite.Proveedor
             if (txtRuc.Text.Trim().Length < 2)
             {
                 Fil.Show();
-                Ver.lbl_msjl.Text = "Ingresa o genera un nombre para el proveedor";
+                //Ver.lbl_msjl.Text = "Ingresa o genera un nombre para el proveedor";
                 Ver.ShowDialog();
                 Fil.Hide();
                 return false;
@@ -88,13 +89,14 @@ namespace Microsell_Lite.Proveedor
                 pro.Rubro = txtRubro.Text;
                 pro.Ruc = txtRuc.Text;
                 pro.Correo = txtCorreo.Text;
+                pro.Telefono =txtTelefono.Text;
                 pro.Contacto = txtContacto.Text;
                 pro.FotoLogo = xFotoruta;
 
                 obj.RN_Registrar_Proveedor(pro);
                 limpiarForm();
                 this.Tag = "A";
-                this.Close();
+                //this.Close();
             }
             catch (Exception ex)
             {
@@ -111,8 +113,24 @@ namespace Microsell_Lite.Proveedor
             txtRubro.Text = "";
             txtRuc.Text = "";
             txtCorreo.Text = "";
+            txtTelefono.Text = "";
             txtContacto.Text = "";
             xFotoruta = "";
+        }
+
+        private void btn_listo_Click(object sender, EventArgs e)
+        {
+            if (Validar_TextBox() == true){
+                Registrar_Proveedor();
+            }
+            else{
+                MessageBox.Show("Faltan datos por llenar");
+            }
+        }
+
+        private void btn_cerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

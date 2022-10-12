@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_AddProveedor));
             this.gru_det = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
+            this.txtContacto = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblFotoPerfil = new System.Windows.Forms.Label();
+            this.picLOG = new System.Windows.Forms.PictureBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtRuc = new System.Windows.Forms.TextBox();
@@ -51,17 +55,13 @@
             this.pnl_titu = new System.Windows.Forms.Panel();
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.picLOG = new System.Windows.Forms.PictureBox();
-            this.lblFotoPerfil = new System.Windows.Forms.Label();
-            this.txtContacto = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.gru_det)).BeginInit();
             this.gru_det.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLOG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_listo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_cancel)).BeginInit();
             this.pnl_titu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLOG)).BeginInit();
             this.SuspendLayout();
             // 
             // gru_det
@@ -115,6 +115,45 @@
             this.gru_det.Size = new System.Drawing.Size(676, 429);
             this.gru_det.TabIndex = 5;
             this.gru_det.VisualStyle = Klik.Windows.Forms.v1.Common.ControlVisualStyles.Custom;
+            // 
+            // txtContacto
+            // 
+            this.txtContacto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContacto.ForeColor = System.Drawing.Color.DimGray;
+            this.txtContacto.Location = new System.Drawing.Point(160, 249);
+            this.txtContacto.Name = "txtContacto";
+            this.txtContacto.Size = new System.Drawing.Size(270, 25);
+            this.txtContacto.TabIndex = 24;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(24, 249);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(60, 16);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Contacto";
+            // 
+            // lblFotoPerfil
+            // 
+            this.lblFotoPerfil.AutoSize = true;
+            this.lblFotoPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFotoPerfil.Location = new System.Drawing.Point(513, 187);
+            this.lblFotoPerfil.Name = "lblFotoPerfil";
+            this.lblFotoPerfil.Size = new System.Drawing.Size(91, 20);
+            this.lblFotoPerfil.TabIndex = 22;
+            this.lblFotoPerfil.Text = "Examinar ...";
+            this.lblFotoPerfil.Click += new System.EventHandler(this.lblFotoPerfil_Click);
+            // 
+            // picLOG
+            // 
+            this.picLOG.Location = new System.Drawing.Point(468, 34);
+            this.picLOG.Name = "picLOG";
+            this.picLOG.Size = new System.Drawing.Size(186, 138);
+            this.picLOG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLOG.TabIndex = 21;
+            this.picLOG.TabStop = false;
             // 
             // txtCorreo
             // 
@@ -280,6 +319,7 @@
             this.btn_listo.TextStyle.Text = "Listo";
             this.btn_listo.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_listo.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
+            this.btn_listo.Click += new System.EventHandler(this.btn_listo_Click);
             // 
             // btn_cancel
             // 
@@ -344,6 +384,7 @@
             this.btn_cerrar.TabIndex = 6;
             this.btn_cerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_cerrar.UseVisualStyleBackColor = true;
+            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
             // label1
             // 
@@ -355,45 +396,6 @@
             this.label1.Size = new System.Drawing.Size(167, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Registro de Proveedor";
-            // 
-            // picLOG
-            // 
-            this.picLOG.Location = new System.Drawing.Point(468, 34);
-            this.picLOG.Name = "picLOG";
-            this.picLOG.Size = new System.Drawing.Size(186, 138);
-            this.picLOG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLOG.TabIndex = 21;
-            this.picLOG.TabStop = false;
-            // 
-            // lblFotoPerfil
-            // 
-            this.lblFotoPerfil.AutoSize = true;
-            this.lblFotoPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFotoPerfil.Location = new System.Drawing.Point(513, 187);
-            this.lblFotoPerfil.Name = "lblFotoPerfil";
-            this.lblFotoPerfil.Size = new System.Drawing.Size(91, 20);
-            this.lblFotoPerfil.TabIndex = 22;
-            this.lblFotoPerfil.Text = "Examinar ...";
-            this.lblFotoPerfil.Click += new System.EventHandler(this.lblFotoPerfil_Click);
-            // 
-            // txtContacto
-            // 
-            this.txtContacto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContacto.ForeColor = System.Drawing.Color.DimGray;
-            this.txtContacto.Location = new System.Drawing.Point(160, 249);
-            this.txtContacto.Name = "txtContacto";
-            this.txtContacto.Size = new System.Drawing.Size(270, 25);
-            this.txtContacto.TabIndex = 24;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(24, 249);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 16);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Contacto";
             // 
             // openFileDialog1
             // 
@@ -412,11 +414,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.gru_det)).EndInit();
             this.gru_det.ResumeLayout(false);
             this.gru_det.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picLOG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_listo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_cancel)).EndInit();
             this.pnl_titu.ResumeLayout(false);
             this.pnl_titu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLOG)).EndInit();
             this.ResumeLayout(false);
 
         }
