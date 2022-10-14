@@ -106,7 +106,7 @@ namespace Prj_Capa_Datos
             {
                 if (cn.State == ConnectionState.Open)//Si la conexion esta abierta
                 {
-                    cn.Close();
+                    cn.Close();//Cieera la conexion
                 }
                 MessageBox.Show("Error al consultar: " + ex.Message + ex.StackTrace,
                     "Capa Datos Proveedor", MessageBoxButtons.OK,

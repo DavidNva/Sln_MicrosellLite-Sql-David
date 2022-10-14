@@ -10,7 +10,7 @@ namespace Prj_Capa_Negocio
 {
     public class RN_Proveedor
     {
-        //Se hacen instancias de la clase BD_Marcapara que mediante esta capa poder acceder a esos metodos 
+        //Se hacen instancias de la clase BD_Proveedor que mediante esta capa poder acceder a esos metodos 
         //y hacer la conexion con la capa negocio y capa datos
         public void RN_Registrar_Proveedor(EN_Proveedor pro)
         {

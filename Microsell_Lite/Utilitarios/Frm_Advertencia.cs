@@ -21,7 +21,8 @@ namespace Microsell_Lite.Utilitarios
         private void Frm_Advertencia_Load(object sender, EventArgs e)
         {
 
-        }
+        }//En lugar de usar un MessageBox, usamos este formulario para mostrar alguna advertencia (Por ejemplo, 
+        //se usa esta advertencia en una validacion de textBox del form proveedor
 
         private void Frm_Advertencia_MouseMove(object sender, MouseEventArgs e)
         {
@@ -34,14 +35,14 @@ namespace Microsell_Lite.Utilitarios
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();//Cierra esta ventana de advertencia
         }
 
         private void Frm_Advertencia_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                btnAceptar_Click(sender, e);
+                btnAceptar_Click(sender, e);//Acepta dar enter para pulsar el boton aceptar
             }
         }
     }

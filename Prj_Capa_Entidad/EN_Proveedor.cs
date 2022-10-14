@@ -8,6 +8,7 @@ namespace Prj_Capa_Entidad
 {
     public class EN_Proveedor
     {
+        //variables encapsuladas;
         private string _idProveedor;
         private string _nombreProveedor;
         private string _direccion;
@@ -17,8 +18,7 @@ namespace Prj_Capa_Entidad
         private string _correo;
         private string _contacto;
         private string _fotoLogo;
-        private string _fotoLogo3;
-
+        //A propiedades con su getter y su setter para poder acceder a ellas
         public string IdProveedor { get => _idProveedor; set => _idProveedor = value; }
         public string NombreProveedor { get => _nombreProveedor; set => _nombreProveedor = value; }
         public string Direccion { get => _direccion; set => _direccion = value; }
@@ -28,6 +28,8 @@ namespace Prj_Capa_Entidad
         public string Correo { get => _correo; set => _correo = value; }
         public string Contacto { get => _contacto; set => _contacto = value; }
         public string FotoLogo { get => _fotoLogo; set => _fotoLogo = value; }
+
+        //Para usar estas propiedes, solo debemos instanciar esta clase
 
     }
 }

@@ -24,14 +24,14 @@ namespace Microsell_Lite.Proveedor
         string xFotoruta;
         private void lblFotoPerfil_Click(object sender, EventArgs e)
         {
-            var filepath = string.Empty;
+            var filepath = string.Empty;//variable para la ruta de archivo, en inicio esta vacia
 
             try
             {
-                if (openFileDialog1.ShowDialog() == DialogResult.OK)
+                if (openFileDialog1.ShowDialog() == DialogResult.OK)//Al dar ok para elegir un archivo (imagen)
                 {
-                    xFotoruta = openFileDialog1.FileName;
-                    picLOG.Load(xFotoruta);
+                    xFotoruta = openFileDialog1.FileName;//
+                    picLOG.Load(xFotoruta);//Carga la imagen en el picture con la ruta del archivo de imagen
                 }
             }
             catch (Exception ex)
@@ -46,23 +46,23 @@ namespace Microsell_Lite.Proveedor
         private bool Validar_TextBox()
         {
             Frm_Filtro Fil = new Frm_Filtro();
-            Frm_Advertencia Ver = new Frm_Advertencia();
-            if (txt_IDProveedor.Text.Trim().Length < 2)
+            Frm_Advertencia Ver = new Frm_Advertencia();//Mensaje cuando ocurre algun eror de validacion
+            if (txt_IDProveedor.Text.Trim().Length < 2)//Si hay un espacio 
             {
                 Fil.Show();
                 //Ver. = "Ingresa o gener el ID del proveedor";
-                Ver.ShowDialog();
-                Fil.Hide();
+                Ver.ShowDialog();//Muestra el formulario de advertencia 
+                Fil.Hide();//Oculta
                 return false;
                 
             }
 
             if (txtNombreProveedor.Text.Trim().Length < 2)
             {
-                Fil.Show();
+                Fil.Show();//muestra
                 Ver.Text = "Ingresa o genera un nombre para el proveedor";
                 Ver.ShowDialog();
-                Fil.Hide();
+                Fil.Hide();//oculta
                 return false;
             }
 
@@ -75,11 +75,14 @@ namespace Microsell_Lite.Proveedor
                 return false;
             }
             return true;
-        }
+        }//Este método valida los 3 campos mas importantes de la tabla proveedor que si o si, deben estar colocados, 
+        //en este caso, el campo IDProveedor, el Nombre del Proveedor y su RUC
+        //Para ello son las validaciones
         private void Registrar_Proveedor()
         {
             RN_Proveedor obj = new RN_Proveedor();
-            EN_Proveedor pro = new EN_Proveedor();
+            EN_Proveedor pro = new EN_Proveedor();//Instancia la clase creada en la capa Entidad, para poder acceder a las
+            //propiedades creadas para el proveedor y de esta forma usar un mismo objeto 
 
             try
             {
@@ -94,11 +97,11 @@ namespace Microsell_Lite.Proveedor
                 pro.FotoLogo = xFotoruta;
 
                 obj.RN_Registrar_Proveedor(pro);
-                limpiarForm();
+                limpiarForm();//Despues de registrar, limpiamos las cajas de texto
                 this.Tag = "A";
                 //this.Close();
             }
-            catch (Exception ex)
+            catch (Exception ex)//Si ocurre alguna exception
             {
                 MessageBox.Show("Error al guardar" + ex.Message + ex.StackTrace, "Form Add Proveedor",
                                 MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -116,21 +119,22 @@ namespace Microsell_Lite.Proveedor
             txtTelefono.Text = "";
             txtContacto.Text = "";
             xFotoruta = "";
-        }
+        }//Este metodo limpia los TextBox del formulario
+        //Lo podemos llamar, por ejemplo, despues de registrar alguna proveedor
 
         private void btn_listo_Click(object sender, EventArgs e)
         {
-            if (Validar_TextBox() == true){
-                Registrar_Proveedor();
+            if (Validar_TextBox() == true){//Al dar clic en listo, si ya ha pasado todas las validaciones de forma correcta
+                Registrar_Proveedor();//entonces procede a registrar un proveedor
             }
             else{
-                MessageBox.Show("Faltan datos por llenar");
+                MessageBox.Show("Faltan datos por llenar");//De no ser asi, envia el mensaje de error
             }
         }
 
         private void btn_cerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();//Cierra este formulario de AddProveedor
         }
     }
 }

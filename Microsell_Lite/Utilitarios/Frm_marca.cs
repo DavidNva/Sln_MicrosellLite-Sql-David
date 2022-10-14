@@ -21,7 +21,7 @@ namespace Microsell_Lite.Utilitarios
         private void Frm_marca_Load(object sender, EventArgs e)
         {
             Configurar_listView();
-            Cargar_Todos_Marca();
+            Cargar_Todos_Marca();//Cada que se abre este formulario, carga todos los datos o filas de Marca
         }
 
         private void pnl_titu_MouseMove(object sender, MouseEventArgs e)

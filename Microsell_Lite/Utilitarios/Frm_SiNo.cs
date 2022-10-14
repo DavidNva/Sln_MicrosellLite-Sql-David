@@ -16,10 +16,11 @@ namespace Microsell_Lite.Utilitarios
         {
             InitializeComponent();
         }
-
+        //En lugar de usar un MessageBox usa este formulario para verificar la eliminacion de alguna elemento
+        //por ejemplo, se usa en el formulario de marca, al intentar eliminar alguna
         private void btn_Si_Click(object sender, EventArgs e)
         {
-            this.Tag = "Si";
+            this.Tag = "Si";//Es una forma de confirmacion
             this.Close();
 
         }

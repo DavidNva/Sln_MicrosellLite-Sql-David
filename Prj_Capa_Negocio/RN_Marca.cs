@@ -9,7 +9,7 @@ using Prj_Capa_Datos;//Se referencia a la capa datos
 namespace Prj_Capa_Negocio
 {
     public class RN_Marca
-    {//Se hacen instancias de la clase BD_Marcapara que mediante esta capa poder acceder a esos metodos 
+    {//Se hacen instancias de la clase BD_Marca para que mediante esta capa poder acceder a esos metodos 
      //y hacer la conexion con la capa negocio y capa datos
         public void RN_Registrar_Marca(string nomMarca)
         {
