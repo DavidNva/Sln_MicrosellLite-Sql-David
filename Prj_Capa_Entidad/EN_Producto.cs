@@ -56,7 +56,8 @@ namespace Prj_Capa_Entidad
         public string StockActual { get => _stockActual; set => _stockActual = value; }
         public string IdCat { get => _idCat; set => _idCat = value; }
         public string IdMar { get => _idMar; set => _idMar = value; }
-        public string IdFoto { get => _idFoto; set => _idFoto = value; }
+        //public string Foto { get => _foto; set => _foto = value; }
+        public string Foto { get => _foto; set => _foto = value; }
         public string Pre_Venta_Menor { get => _pre_Venta_Menor; set => _pre_Venta_Menor = value; }
         public string Pre_Venta_Mayor { get => _pre_Venta_Mayor; set => _pre_Venta_Mayor = value; }
         public string Pre_Venta_Dolar { get => _pre_Venta_Dolar; set => _pre_Venta_Dolar = value; }
@@ -65,5 +66,6 @@ namespace Prj_Capa_Entidad
         public string Utilidad { get => _utilidad; set => _utilidad = value; }
         public string TipoProd { get => _tipoProd; set => _tipoProd = value; }
         public string ValorPorProd { get => _valorPorProd; set => _valorPorProd = value; }
+        
     }
 }

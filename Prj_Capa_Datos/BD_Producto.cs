@@ -9,10 +9,10 @@ using System.Windows.Forms;
 using Prj_Capa_Entidad;
 namespace Prj_Capa_Datos
 {
-    public class BD_Productos: BDConexion  //Heredamos de esta clase para tener el metodo Conectar(); 
+    public class BD_Productos : BDConexion  //Heredamos de esta clase para tener el metodo Conectar(); 
     {
         public static bool seguardo = false;
-        public void BD_Registrar_Proveedor(EN_Producto pro)
+        public void BD_Registrar_Producto(EN_Producto pro)
         {
             SqlConnection cn = new SqlConnection();//Instanciamos de una clase tipo SqlConnection
             try
@@ -22,7 +22,7 @@ namespace Prj_Capa_Datos
                 cmd.CommandTimeout = 20;//Espera a ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
                 cmd.CommandType = CommandType.StoredProcedure;//Indicamos que el comando va a ser de tipo Procedimiento Almacenado
                 cmd.Parameters.AddWithValue("@idpro", pro.IdProd);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
-                                                                             //el parametro @idprove y demas deben ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+                                                                  //el parametro @idprove y demas deben ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
                 cmd.Parameters.AddWithValue("@idprove", pro.IdProve);//Estos son los nombres identificares declarados en el scrip de sql y el segundo en la clase EN_Proveedor
                 cmd.Parameters.AddWithValue("@descripcion", pro.Descripcion);
                 cmd.Parameters.AddWithValue("@frank", pro.Frank);
@@ -43,7 +43,7 @@ namespace Prj_Capa_Datos
                 cn.Open();//Abrimos la conexion
                 cmd.ExecuteNonQuery();//Ejecutamos la consulta
                 cn.Close();//Cerramos la conexión
-                seguardo = true;    
+                seguardo = true;
                 MessageBox.Show("El producto se ha registrado exitosamente");//Para verificar que ha ejecutado estas lineas, mostramos este mensaje
 
             }
@@ -132,7 +132,7 @@ namespace Prj_Capa_Datos
                 return null;
             }
         }
-        
+
         public DataTable BD_Buscar_Productos(string valor)
         {
             SqlConnection cn = new SqlConnection();
@@ -158,9 +158,163 @@ namespace Prj_Capa_Datos
                     "Capa Datos Producto", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);//Se notifica el mensaje de error, el tipo, el nombre de la capa en la que estamos. 
                 return null;
-               
+
             }
         }
+        public void BD_Darbaja_Producto(string idprod)
+        {
+            SqlConnection cn = new SqlConnection();
+            try
+            {
+                cn.ConnectionString = Conectar();//se usa el metodo heredado
+                SqlCommand cmd = new SqlCommand("Sp_Darbaja_Producto", cn);//Indicamos el sp a ejecutar (debe ser con el nombre dado en sql y la conexion a la BD
+                cmd.CommandTimeout = 20;//Espero ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
+                cmd.CommandType = CommandType.StoredProcedure;//Indicamos que va a ser de tipo procedimiento almacenado
+                cmd.Parameters.AddWithValue("@idpro", idprod);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
+                //el parametro @idmar debe ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                MessageBox.Show("El producto se ha eliminado exitosamente");
+
+            }
+            catch (Exception ex)
+            {
+                if (cn.State == ConnectionState.Open)
+                {
+                    cn.Close();
+                }
+                MessageBox.Show("Error al eliminar: " + ex.Message + ex.StackTrace,
+                    "Capa Datos Producto", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+            }
+        }
+        public void BD_Sumar_Stock_Producto(string idprod, double stock)
+        {
+            SqlConnection cn = new SqlConnection();
+            try
+            {
+                cn.ConnectionString = Conectar();//se usa el metodo heredado
+                SqlCommand cmd = new SqlCommand("sp_SumarStock", cn);//Indicamos el sp a ejecutar (debe ser con el nombre dado en sql y la conexion a la BD
+                cmd.CommandTimeout = 20;//Espero ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
+                cmd.CommandType = CommandType.StoredProcedure;//Indicamos que va a ser de tipo procedimiento almacenado
+                cmd.Parameters.AddWithValue("@idpro", idprod);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
+                //el parametro @idmar debe ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+                cmd.Parameters.AddWithValue("@stock", stock);
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                seguardo = true;
+                
+
+            }
+            catch (Exception ex)
+            {
+                if (cn.State == ConnectionState.Open)
+                {
+                    cn.Close();
+                }
+                MessageBox.Show("Error al guardar: " + ex.Message + ex.StackTrace,
+                    "Capa Datos Producto", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+            }
+        }
+        public void BD_Restar_Stock_Producto(int idprod, double stock)
+        {
+            SqlConnection cn = new SqlConnection();
+            try
+            {
+                cn.ConnectionString = Conectar();//se usa el metodo heredado
+                SqlCommand cmd = new SqlCommand("sp_Restar_Stock", cn);//Indicamos el sp a ejecutar (debe ser con el nombre dado en sql y la conexion a la BD
+                cmd.CommandTimeout = 20;//Espero ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
+                cmd.CommandType = CommandType.StoredProcedure;//Indicamos que va a ser de tipo procedimiento almacenado
+                cmd.Parameters.AddWithValue("@idpro", idprod);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
+                //el parametro @idmar debe ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+                cmd.Parameters.AddWithValue("@stock", stock);
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                seguardo = true;
+
+
+            }
+            catch (Exception ex)
+            {
+                if (cn.State == ConnectionState.Open)
+                {
+                    cn.Close();
+                }
+                MessageBox.Show("Error al guardar: " + ex.Message + ex.StackTrace,
+                    "Capa Datos Producto", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+            }
+        }
+
+        public void BD_Actualizar_PrecioCompa_Producto(string idprod, double precompraP, double preVenta_menor, double utilidad,
+            double valoraAlmacen)
+        {
+            SqlConnection cn = new SqlConnection();//Instanciamos de una clase tipo SqlConnection
+            try
+            {//usamos la instancia
+                cn.ConnectionString = Conectar();//Para indicar que vamos a hacer una conexion declarada anteriormente (Con el metodo de la clase heradada)
+                SqlCommand cmd = new SqlCommand("Sp_Actulizar_Precios_CompraVenta_Producto", cn);//Indicamos el sp a ejecutar (debe ser con el nombre dado en sql y la conexion
+                cmd.CommandTimeout = 20;//Espera a ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
+                cmd.CommandType = CommandType.StoredProcedure;//Indicamos que el comando va a ser de tipo Procedimiento Almacenado
+                cmd.Parameters.AddWithValue("@Id_Pro", idprod);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
+                   //idpro es con Id_Pro                           //es con es no con p                    //el parametro @idprove y demas deben ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+                cmd.Parameters.AddWithValue("@Pre_CompraS", precompraP);//Estos son los nombres identificares declarados en el scrip de sql y el segundo en la clase EN_Proveedor
+                cmd.Parameters.AddWithValue("@Pre_vntaxMenor", preVenta_menor);
+                cmd.Parameters.AddWithValue("@Utilidad", utilidad);
+                cmd.Parameters.AddWithValue("@ValorAlmacen", valoraAlmacen);
+                
+                cn.Open();//Abrimos la conexion
+                cmd.ExecuteNonQuery();//Ejecutamos la consulta
+                cn.Close();//Cerramos la conexión
+                seguardo = true;
+               
+            }
+            catch (Exception ex)//En caso de algun error
+            {
+                if (cn.State == ConnectionState.Open)//Si la conexion esta abierta
+                {
+                    cn.Close();
+                }
+                MessageBox.Show("Error al guardar: " + ex.Message + ex.StackTrace,
+                    "Capa Datos Producto", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);//Se notifica el mensaje de error, el tipo, el nombre de la capa en la que estamos.
+            }
+        }
+        public void BD_Eliminar_Producto(string idprod)
+        {
+            SqlConnection cn = new SqlConnection();
+            try
+            {
+                cn.ConnectionString = Conectar();//se usa el metodo heredado
+                SqlCommand cmd = new SqlCommand("sp_Eliminar_Producto", cn);//Indicamos el sp a ejecutar (debe ser con el nombre dado en sql y la conexion a la BD
+                cmd.CommandTimeout = 20;//Espero ejecutar esto en 20 segundo, si demora mas tiempo pasa al catch
+                cmd.CommandType = CommandType.StoredProcedure;//Indicamos que va a ser de tipo procedimiento almacenado
+                cmd.Parameters.AddWithValue("@idpro", idprod);//Como parametro indicamos el nombre de la categoria (es la variable ya hecha con el procedimiento almacenado)
+                //el parametro @idmar debe ser igual al declarado en el sp,  //Tambien indicamos de donde proviene dicha informacion, en este caso del parametro del propio metodo, que trae el dato que ingrese el usuario
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+                MessageBox.Show("El producto se ha eliminado exitosamente");
+
+            }
+            catch (Exception ex)
+            {
+                if (cn.State == ConnectionState.Open)
+                {
+                    cn.Close();
+                }
+                MessageBox.Show("Error al eliminar: " + ex.Message + ex.StackTrace,
+                    "Capa Datos Producto", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+            }
+        }
+
     }
-    
+
 }

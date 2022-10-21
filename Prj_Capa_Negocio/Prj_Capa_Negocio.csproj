@@ -47,6 +47,7 @@
     <Compile Include="RN_Categoria.cs" />
     <Compile Include="RN_Distrito.cs" />
     <Compile Include="RN_Marca.cs" />
+    <Compile Include="RN_Productos.cs" />
     <Compile Include="RN_Proveedor.cs" />
   </ItemGroup>
   <ItemGroup>
