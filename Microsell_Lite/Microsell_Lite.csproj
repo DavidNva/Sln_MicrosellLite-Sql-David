@@ -75,6 +75,12 @@
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Numalet.cs" />
+    <Compile Include="Productos\Frm_Add_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Frm_Add_Producto.Designer.cs">
+      <DependentUpon>Frm_Add_Producto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos\Frm_Explo_Prod.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Frm_Add_Producto.resx">
+      <DependentUpon>Frm_Add_Producto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos\Frm_Explo_Prod.resx">
       <DependentUpon>Frm_Explo_Prod.cs</DependentUpon>

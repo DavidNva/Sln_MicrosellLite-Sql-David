@@ -165,3 +165,4 @@ E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas 
 E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_distrito.resources
 E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Proveedor.Frm_AddProveedor.resources
 E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Utilitarios.Frm_Advertencia.resources
+E:\Documentos\5º Semestre Enero-Junio\Desarrollo e implementación de Sistemas de Información\Modelado de App y BD\Sln_MicrosellLite Sql-David\Microsell_Lite\obj\Debug\Microsell_Lite.Productos.Frm_Add_Producto.resources
