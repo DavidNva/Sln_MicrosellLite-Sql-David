@@ -31,45 +31,48 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Add_Producto));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.txtContacto = new System.Windows.Forms.TextBox();
+            this.txt_PrecioUnitario = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.lblFotoPerfil = new System.Windows.Forms.Label();
             this.picLOG = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtRubro = new System.Windows.Forms.TextBox();
+            this.txt_Categoria = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txt_Marca = new System.Windows.Forms.TextBox();
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.pnl_titu = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.label7 = new System.Windows.Forms.Label();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txt_ProveedorProd = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txt_IDProveedor = new System.Windows.Forms.TextBox();
+            this.txt_IDProducto = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_listo = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.btn_cancel = new Klik.Windows.Forms.v1.EntryLib.ELButton();
-            this.txtNombreProveedor = new System.Windows.Forms.TextBox();
+            this.txt_DescripcionProd = new System.Windows.Forms.TextBox();
             this.gru_det = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cmb_UnidadMedida = new System.Windows.Forms.ComboBox();
+            this.cmb_TipoProducto = new System.Windows.Forms.ComboBox();
+            this.ch_IDCodBarras = new System.Windows.Forms.CheckBox();
+            this.txt_Pre_Venta_Dolar = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_PreVentaMayor = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_PreVentaMenor = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_FrankUtilidad = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_PrecioCompra = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Utilidad = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btn_BuscarMarca = new System.Windows.Forms.Button();
+            this.btn_BuscarCategoria = new System.Windows.Forms.Button();
+            this.btn_BuscarProveedor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLOG)).BeginInit();
             this.pnl_titu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_listo)).BeginInit();
@@ -82,14 +85,14 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // txtContacto
+            // txt_PrecioUnitario
             // 
-            this.txtContacto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContacto.ForeColor = System.Drawing.Color.DimGray;
-            this.txtContacto.Location = new System.Drawing.Point(169, 275);
-            this.txtContacto.Name = "txtContacto";
-            this.txtContacto.Size = new System.Drawing.Size(100, 25);
-            this.txtContacto.TabIndex = 9;
+            this.txt_PrecioUnitario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PrecioUnitario.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_PrecioUnitario.Location = new System.Drawing.Point(169, 275);
+            this.txt_PrecioUnitario.Name = "txt_PrecioUnitario";
+            this.txt_PrecioUnitario.Size = new System.Drawing.Size(100, 25);
+            this.txt_PrecioUnitario.TabIndex = 9;
             // 
             // label9
             // 
@@ -140,14 +143,14 @@
             this.label5.TabIndex = 16;
             this.label5.Text = "Tipo Producto";
             // 
-            // txtRubro
+            // txt_Categoria
             // 
-            this.txtRubro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRubro.ForeColor = System.Drawing.Color.DimGray;
-            this.txtRubro.Location = new System.Drawing.Point(169, 186);
-            this.txtRubro.Name = "txtRubro";
-            this.txtRubro.Size = new System.Drawing.Size(100, 25);
-            this.txtRubro.TabIndex = 6;
+            this.txt_Categoria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Categoria.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_Categoria.Location = new System.Drawing.Point(169, 186);
+            this.txt_Categoria.Name = "txt_Categoria";
+            this.txt_Categoria.Size = new System.Drawing.Size(100, 25);
+            this.txt_Categoria.TabIndex = 6;
             // 
             // label6
             // 
@@ -159,14 +162,14 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Categoria";
             // 
-            // txtTelefono
+            // txt_Marca
             // 
-            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.ForeColor = System.Drawing.Color.DimGray;
-            this.txtTelefono.Location = new System.Drawing.Point(169, 148);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(100, 25);
-            this.txtTelefono.TabIndex = 5;
+            this.txt_Marca.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Marca.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_Marca.Location = new System.Drawing.Point(169, 148);
+            this.txt_Marca.Name = "txt_Marca";
+            this.txt_Marca.Size = new System.Drawing.Size(100, 25);
+            this.txt_Marca.TabIndex = 5;
             // 
             // btn_cerrar
             // 
@@ -184,6 +187,7 @@
             this.btn_cerrar.TabIndex = 6;
             this.btn_cerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_cerrar.UseVisualStyleBackColor = true;
+            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
             // pnl_titu
             // 
@@ -222,14 +226,14 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Marca";
             // 
-            // txtDireccion
+            // txt_ProveedorProd
             // 
-            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.ForeColor = System.Drawing.Color.DimGray;
-            this.txtDireccion.Location = new System.Drawing.Point(169, 117);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(270, 25);
-            this.txtDireccion.TabIndex = 4;
+            this.txt_ProveedorProd.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ProveedorProd.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_ProveedorProd.Location = new System.Drawing.Point(169, 117);
+            this.txt_ProveedorProd.Name = "txt_ProveedorProd";
+            this.txt_ProveedorProd.Size = new System.Drawing.Size(270, 25);
+            this.txt_ProveedorProd.TabIndex = 4;
             // 
             // label4
             // 
@@ -251,14 +255,14 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Descripcion de Producto";
             // 
-            // txt_IDProveedor
+            // txt_IDProducto
             // 
-            this.txt_IDProveedor.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IDProveedor.ForeColor = System.Drawing.Color.DimGray;
-            this.txt_IDProveedor.Location = new System.Drawing.Point(169, 55);
-            this.txt_IDProveedor.Name = "txt_IDProveedor";
-            this.txt_IDProveedor.Size = new System.Drawing.Size(100, 25);
-            this.txt_IDProveedor.TabIndex = 1;
+            this.txt_IDProducto.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_IDProducto.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_IDProducto.Location = new System.Drawing.Point(169, 55);
+            this.txt_IDProducto.Name = "txt_IDProducto";
+            this.txt_IDProducto.Size = new System.Drawing.Size(100, 25);
+            this.txt_IDProducto.TabIndex = 1;
             // 
             // label2
             // 
@@ -333,14 +337,14 @@
             this.btn_cancel.TextStyle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btn_cancel.VisualStyle = Klik.Windows.Forms.v1.EntryLib.ButtonVisualStyles.Custom;
             // 
-            // txtNombreProveedor
+            // txt_DescripcionProd
             // 
-            this.txtNombreProveedor.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreProveedor.ForeColor = System.Drawing.Color.DimGray;
-            this.txtNombreProveedor.Location = new System.Drawing.Point(169, 86);
-            this.txtNombreProveedor.Name = "txtNombreProveedor";
-            this.txtNombreProveedor.Size = new System.Drawing.Size(270, 25);
-            this.txtNombreProveedor.TabIndex = 3;
+            this.txt_DescripcionProd.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_DescripcionProd.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_DescripcionProd.Location = new System.Drawing.Point(169, 86);
+            this.txt_DescripcionProd.Name = "txt_DescripcionProd";
+            this.txt_DescripcionProd.Size = new System.Drawing.Size(270, 25);
+            this.txt_DescripcionProd.TabIndex = 3;
             // 
             // gru_det
             // 
@@ -366,40 +370,43 @@
             this.gru_det.CaptionStyle.TextStyle.TextType = Klik.Windows.Forms.v1.Common.TextTypes.BlockShadow;
             this.gru_det.CaptionStyle.Visible = false;
             this.gru_det.CaptionStyle.VisualStyle = Klik.Windows.Forms.v1.Common.ControlVisualStyles.Custom;
-            this.gru_det.Controls.Add(this.comboBox2);
-            this.gru_det.Controls.Add(this.comboBox1);
-            this.gru_det.Controls.Add(this.checkBox1);
-            this.gru_det.Controls.Add(this.textBox6);
+            this.gru_det.Controls.Add(this.btn_BuscarProveedor);
+            this.gru_det.Controls.Add(this.cmb_UnidadMedida);
+            this.gru_det.Controls.Add(this.cmb_TipoProducto);
+            this.gru_det.Controls.Add(this.ch_IDCodBarras);
+            this.gru_det.Controls.Add(this.txt_Pre_Venta_Dolar);
             this.gru_det.Controls.Add(this.label16);
-            this.gru_det.Controls.Add(this.textBox5);
+            this.gru_det.Controls.Add(this.txt_PreVentaMayor);
             this.gru_det.Controls.Add(this.label15);
-            this.gru_det.Controls.Add(this.textBox4);
+            this.gru_det.Controls.Add(this.txt_PreVentaMenor);
             this.gru_det.Controls.Add(this.label14);
-            this.gru_det.Controls.Add(this.textBox3);
+            this.gru_det.Controls.Add(this.txt_FrankUtilidad);
             this.gru_det.Controls.Add(this.label13);
-            this.gru_det.Controls.Add(this.textBox2);
+            this.gru_det.Controls.Add(this.txt_PrecioCompra);
             this.gru_det.Controls.Add(this.label12);
-            this.gru_det.Controls.Add(this.textBox1);
+            this.gru_det.Controls.Add(this.txt_Utilidad);
             this.gru_det.Controls.Add(this.label11);
             this.gru_det.Controls.Add(this.label10);
-            this.gru_det.Controls.Add(this.txtContacto);
+            this.gru_det.Controls.Add(this.txt_PrecioUnitario);
             this.gru_det.Controls.Add(this.label9);
             this.gru_det.Controls.Add(this.lblFotoPerfil);
             this.gru_det.Controls.Add(this.picLOG);
             this.gru_det.Controls.Add(this.label8);
             this.gru_det.Controls.Add(this.label5);
-            this.gru_det.Controls.Add(this.txtRubro);
+            this.gru_det.Controls.Add(this.txt_Categoria);
             this.gru_det.Controls.Add(this.label6);
-            this.gru_det.Controls.Add(this.txtTelefono);
+            this.gru_det.Controls.Add(this.txt_Marca);
             this.gru_det.Controls.Add(this.label7);
-            this.gru_det.Controls.Add(this.txtDireccion);
+            this.gru_det.Controls.Add(this.txt_ProveedorProd);
             this.gru_det.Controls.Add(this.label4);
-            this.gru_det.Controls.Add(this.txtNombreProveedor);
+            this.gru_det.Controls.Add(this.txt_DescripcionProd);
             this.gru_det.Controls.Add(this.label3);
-            this.gru_det.Controls.Add(this.txt_IDProveedor);
+            this.gru_det.Controls.Add(this.txt_IDProducto);
             this.gru_det.Controls.Add(this.label2);
             this.gru_det.Controls.Add(this.btn_listo);
             this.gru_det.Controls.Add(this.btn_cancel);
+            this.gru_det.Controls.Add(this.btn_BuscarCategoria);
+            this.gru_det.Controls.Add(this.btn_BuscarMarca);
             this.gru_det.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gru_det.Location = new System.Drawing.Point(0, 0);
             this.gru_det.Name = "gru_det";
@@ -408,13 +415,13 @@
             this.gru_det.TabIndex = 7;
             this.gru_det.VisualStyle = Klik.Windows.Forms.v1.Common.ControlVisualStyles.Custom;
             // 
-            // comboBox2
+            // cmb_UnidadMedida
             // 
-            this.comboBox2.AllowDrop = true;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmb_UnidadMedida.AllowDrop = true;
+            this.cmb_UnidadMedida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_UnidadMedida.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cmb_UnidadMedida.FormattingEnabled = true;
+            this.cmb_UnidadMedida.Items.AddRange(new object[] {
             "Kg.",
             "Paquete",
             "Caja",
@@ -425,41 +432,41 @@
             "Botella",
             "Pieza",
             "Bolsa"});
-            this.comboBox2.Location = new System.Drawing.Point(169, 248);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 8;
+            this.cmb_UnidadMedida.Location = new System.Drawing.Point(169, 248);
+            this.cmb_UnidadMedida.Name = "cmb_UnidadMedida";
+            this.cmb_UnidadMedida.Size = new System.Drawing.Size(100, 21);
+            this.cmb_UnidadMedida.TabIndex = 8;
             // 
-            // comboBox1
+            // cmb_TipoProducto
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_TipoProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb_TipoProducto.FormattingEnabled = true;
+            this.cmb_TipoProducto.Items.AddRange(new object[] {
             "Producto ",
             "Servicio"});
-            this.comboBox1.Location = new System.Drawing.Point(169, 218);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 7;
+            this.cmb_TipoProducto.Location = new System.Drawing.Point(169, 218);
+            this.cmb_TipoProducto.Name = "cmb_TipoProducto";
+            this.cmb_TipoProducto.Size = new System.Drawing.Size(100, 21);
+            this.cmb_TipoProducto.TabIndex = 7;
             // 
-            // checkBox1
+            // ch_IDCodBarras
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(318, 60);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(121, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "ID Codigo de Barras";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.ch_IDCodBarras.AutoSize = true;
+            this.ch_IDCodBarras.Location = new System.Drawing.Point(318, 60);
+            this.ch_IDCodBarras.Name = "ch_IDCodBarras";
+            this.ch_IDCodBarras.Size = new System.Drawing.Size(121, 17);
+            this.ch_IDCodBarras.TabIndex = 2;
+            this.ch_IDCodBarras.Text = "ID Codigo de Barras";
+            this.ch_IDCodBarras.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // txt_Pre_Venta_Dolar
             // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox6.Location = new System.Drawing.Point(571, 368);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 25);
-            this.textBox6.TabIndex = 15;
+            this.txt_Pre_Venta_Dolar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Pre_Venta_Dolar.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_Pre_Venta_Dolar.Location = new System.Drawing.Point(571, 368);
+            this.txt_Pre_Venta_Dolar.Name = "txt_Pre_Venta_Dolar";
+            this.txt_Pre_Venta_Dolar.Size = new System.Drawing.Size(100, 25);
+            this.txt_Pre_Venta_Dolar.TabIndex = 15;
             // 
             // label16
             // 
@@ -471,14 +478,14 @@
             this.label16.TabIndex = 36;
             this.label16.Text = "Precio Venta Dolar";
             // 
-            // textBox5
+            // txt_PreVentaMayor
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox5.Location = new System.Drawing.Point(571, 337);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 25);
-            this.textBox5.TabIndex = 14;
+            this.txt_PreVentaMayor.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PreVentaMayor.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_PreVentaMayor.Location = new System.Drawing.Point(571, 337);
+            this.txt_PreVentaMayor.Name = "txt_PreVentaMayor";
+            this.txt_PreVentaMayor.Size = new System.Drawing.Size(100, 25);
+            this.txt_PreVentaMayor.TabIndex = 14;
             // 
             // label15
             // 
@@ -490,14 +497,14 @@
             this.label15.TabIndex = 34;
             this.label15.Text = "Precio Venta Mayor";
             // 
-            // textBox4
+            // txt_PreVentaMenor
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox4.Location = new System.Drawing.Point(571, 306);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 25);
-            this.textBox4.TabIndex = 13;
+            this.txt_PreVentaMenor.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PreVentaMenor.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_PreVentaMenor.Location = new System.Drawing.Point(571, 306);
+            this.txt_PreVentaMenor.Name = "txt_PreVentaMenor";
+            this.txt_PreVentaMenor.Size = new System.Drawing.Size(100, 25);
+            this.txt_PreVentaMenor.TabIndex = 13;
             // 
             // label14
             // 
@@ -509,14 +516,14 @@
             this.label14.TabIndex = 32;
             this.label14.Text = "Precio Venta Menor";
             // 
-            // textBox3
+            // txt_FrankUtilidad
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox3.Location = new System.Drawing.Point(169, 367);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 25);
-            this.textBox3.TabIndex = 12;
+            this.txt_FrankUtilidad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_FrankUtilidad.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_FrankUtilidad.Location = new System.Drawing.Point(169, 367);
+            this.txt_FrankUtilidad.Name = "txt_FrankUtilidad";
+            this.txt_FrankUtilidad.Size = new System.Drawing.Size(100, 25);
+            this.txt_FrankUtilidad.TabIndex = 12;
             // 
             // label13
             // 
@@ -528,14 +535,14 @@
             this.label13.TabIndex = 30;
             this.label13.Text = "Frank Utilidad";
             // 
-            // textBox2
+            // txt_PrecioCompra
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(169, 336);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
-            this.textBox2.TabIndex = 11;
+            this.txt_PrecioCompra.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PrecioCompra.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_PrecioCompra.Location = new System.Drawing.Point(169, 336);
+            this.txt_PrecioCompra.Name = "txt_PrecioCompra";
+            this.txt_PrecioCompra.Size = new System.Drawing.Size(100, 25);
+            this.txt_PrecioCompra.TabIndex = 11;
             // 
             // label12
             // 
@@ -547,14 +554,14 @@
             this.label12.TabIndex = 28;
             this.label12.Text = "Precio Compra";
             // 
-            // textBox1
+            // txt_Utilidad
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(169, 306);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
-            this.textBox1.TabIndex = 10;
+            this.txt_Utilidad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Utilidad.ForeColor = System.Drawing.Color.DimGray;
+            this.txt_Utilidad.Location = new System.Drawing.Point(169, 306);
+            this.txt_Utilidad.Name = "txt_Utilidad";
+            this.txt_Utilidad.Size = new System.Drawing.Size(100, 25);
+            this.txt_Utilidad.TabIndex = 10;
             // 
             // label11
             // 
@@ -575,6 +582,60 @@
             this.label10.Size = new System.Drawing.Size(77, 16);
             this.label10.TabIndex = 25;
             this.label10.Text = "ID Producto";
+            // 
+            // btn_BuscarMarca
+            // 
+            this.btn_BuscarMarca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_BuscarMarca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_BuscarMarca.FlatAppearance.BorderSize = 0;
+            this.btn_BuscarMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BuscarMarca.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarMarca.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarMarca.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarMarca.Image")));
+            this.btn_BuscarMarca.Location = new System.Drawing.Point(275, 140);
+            this.btn_BuscarMarca.Name = "btn_BuscarMarca";
+            this.btn_BuscarMarca.Size = new System.Drawing.Size(36, 39);
+            this.btn_BuscarMarca.TabIndex = 39;
+            this.btn_BuscarMarca.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BuscarMarca.UseVisualStyleBackColor = true;
+            // 
+            // btn_BuscarCategoria
+            // 
+            this.btn_BuscarCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_BuscarCategoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_BuscarCategoria.FlatAppearance.BorderSize = 0;
+            this.btn_BuscarCategoria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarCategoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BuscarCategoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarCategoria.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarCategoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarCategoria.Image")));
+            this.btn_BuscarCategoria.Location = new System.Drawing.Point(275, 182);
+            this.btn_BuscarCategoria.Name = "btn_BuscarCategoria";
+            this.btn_BuscarCategoria.Size = new System.Drawing.Size(36, 39);
+            this.btn_BuscarCategoria.TabIndex = 40;
+            this.btn_BuscarCategoria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BuscarCategoria.UseVisualStyleBackColor = true;
+            // 
+            // btn_BuscarProveedor
+            // 
+            this.btn_BuscarProveedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_BuscarProveedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_BuscarProveedor.FlatAppearance.BorderSize = 0;
+            this.btn_BuscarProveedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BuscarProveedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarProveedor.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarProveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarProveedor.Image")));
+            this.btn_BuscarProveedor.Location = new System.Drawing.Point(443, 109);
+            this.btn_BuscarProveedor.Name = "btn_BuscarProveedor";
+            this.btn_BuscarProveedor.Size = new System.Drawing.Size(36, 39);
+            this.btn_BuscarProveedor.TabIndex = 41;
+            this.btn_BuscarProveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BuscarProveedor.UseVisualStyleBackColor = true;
             // 
             // Frm_Add_Producto
             // 
@@ -602,44 +663,47 @@
         #endregion
 
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.TextBox txtContacto;
+        private System.Windows.Forms.TextBox txt_PrecioUnitario;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblFotoPerfil;
         private System.Windows.Forms.PictureBox picLOG;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtRubro;
+        private System.Windows.Forms.TextBox txt_Categoria;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.TextBox txt_Marca;
         private System.Windows.Forms.Button btn_cerrar;
         private System.Windows.Forms.Panel pnl_titu;
         private System.Windows.Forms.Label label1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Klik.Windows.Forms.v1.EntryLib.ELGroupBox gru_det;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txt_ProveedorProd;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtNombreProveedor;
+        private System.Windows.Forms.TextBox txt_DescripcionProd;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_IDProveedor;
+        private System.Windows.Forms.TextBox txt_IDProducto;
         private System.Windows.Forms.Label label2;
         private Klik.Windows.Forms.v1.EntryLib.ELButton btn_listo;
         private Klik.Windows.Forms.v1.EntryLib.ELButton btn_cancel;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_PreVentaMenor;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_FrankUtilidad;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_PrecioCompra;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Utilidad;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_Pre_Venta_Dolar;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_PreVentaMayor;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox ch_IDCodBarras;
+        private System.Windows.Forms.ComboBox cmb_UnidadMedida;
+        private System.Windows.Forms.ComboBox cmb_TipoProducto;
+        private System.Windows.Forms.Button btn_BuscarProveedor;
+        private System.Windows.Forms.Button btn_BuscarCategoria;
+        private System.Windows.Forms.Button btn_BuscarMarca;
     }
 }

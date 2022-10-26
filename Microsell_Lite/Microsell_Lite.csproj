@@ -101,6 +101,12 @@
     <Compile Include="Proveedor\Frm_AddProveedor.Designer.cs">
       <DependentUpon>Frm_AddProveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proveedor\Frm_ListadoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedor\Frm_ListadoProveedor.Designer.cs">
+      <DependentUpon>Frm_ListadoProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Utilitario.cs" />
     <Compile Include="Utilitarios\Form1.cs">
       <SubType>Form</SubType>
@@ -187,6 +193,9 @@
     </Compile>
     <EmbeddedResource Include="Proveedor\Frm_AddProveedor.resx">
       <DependentUpon>Frm_AddProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedor\Frm_ListadoProveedor.resx">
+      <DependentUpon>Frm_ListadoProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilitarios\Frm_Advertencia.resx">
       <DependentUpon>Frm_Advertencia.cs</DependentUpon>
