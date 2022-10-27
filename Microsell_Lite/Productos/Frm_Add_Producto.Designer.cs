@@ -54,6 +54,7 @@
             this.btn_cancel = new Klik.Windows.Forms.v1.EntryLib.ELButton();
             this.txt_DescripcionProd = new System.Windows.Forms.TextBox();
             this.gru_det = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
+            this.btn_BuscarProveedor = new System.Windows.Forms.Button();
             this.cmb_UnidadMedida = new System.Windows.Forms.ComboBox();
             this.cmb_TipoProducto = new System.Windows.Forms.ComboBox();
             this.ch_IDCodBarras = new System.Windows.Forms.CheckBox();
@@ -70,9 +71,8 @@
             this.txt_Utilidad = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.btn_BuscarMarca = new System.Windows.Forms.Button();
             this.btn_BuscarCategoria = new System.Windows.Forms.Button();
-            this.btn_BuscarProveedor = new System.Windows.Forms.Button();
+            this.btn_BuscarMarca = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picLOG)).BeginInit();
             this.pnl_titu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_listo)).BeginInit();
@@ -415,6 +415,25 @@
             this.gru_det.TabIndex = 7;
             this.gru_det.VisualStyle = Klik.Windows.Forms.v1.Common.ControlVisualStyles.Custom;
             // 
+            // btn_BuscarProveedor
+            // 
+            this.btn_BuscarProveedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_BuscarProveedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_BuscarProveedor.FlatAppearance.BorderSize = 0;
+            this.btn_BuscarProveedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BuscarProveedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarProveedor.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarProveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarProveedor.Image")));
+            this.btn_BuscarProveedor.Location = new System.Drawing.Point(443, 109);
+            this.btn_BuscarProveedor.Name = "btn_BuscarProveedor";
+            this.btn_BuscarProveedor.Size = new System.Drawing.Size(36, 39);
+            this.btn_BuscarProveedor.TabIndex = 41;
+            this.btn_BuscarProveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BuscarProveedor.UseVisualStyleBackColor = true;
+            this.btn_BuscarProveedor.Click += new System.EventHandler(this.btn_BuscarProveedor_Click);
+            // 
             // cmb_UnidadMedida
             // 
             this.cmb_UnidadMedida.AllowDrop = true;
@@ -583,24 +602,6 @@
             this.label10.TabIndex = 25;
             this.label10.Text = "ID Producto";
             // 
-            // btn_BuscarMarca
-            // 
-            this.btn_BuscarMarca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_BuscarMarca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_BuscarMarca.FlatAppearance.BorderSize = 0;
-            this.btn_BuscarMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
-            this.btn_BuscarMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
-            this.btn_BuscarMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BuscarMarca.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BuscarMarca.ForeColor = System.Drawing.Color.White;
-            this.btn_BuscarMarca.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarMarca.Image")));
-            this.btn_BuscarMarca.Location = new System.Drawing.Point(275, 140);
-            this.btn_BuscarMarca.Name = "btn_BuscarMarca";
-            this.btn_BuscarMarca.Size = new System.Drawing.Size(36, 39);
-            this.btn_BuscarMarca.TabIndex = 39;
-            this.btn_BuscarMarca.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_BuscarMarca.UseVisualStyleBackColor = true;
-            // 
             // btn_BuscarCategoria
             // 
             this.btn_BuscarCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -619,23 +620,23 @@
             this.btn_BuscarCategoria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_BuscarCategoria.UseVisualStyleBackColor = true;
             // 
-            // btn_BuscarProveedor
+            // btn_BuscarMarca
             // 
-            this.btn_BuscarProveedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_BuscarProveedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_BuscarProveedor.FlatAppearance.BorderSize = 0;
-            this.btn_BuscarProveedor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
-            this.btn_BuscarProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
-            this.btn_BuscarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_BuscarProveedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_BuscarProveedor.ForeColor = System.Drawing.Color.White;
-            this.btn_BuscarProveedor.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarProveedor.Image")));
-            this.btn_BuscarProveedor.Location = new System.Drawing.Point(443, 109);
-            this.btn_BuscarProveedor.Name = "btn_BuscarProveedor";
-            this.btn_BuscarProveedor.Size = new System.Drawing.Size(36, 39);
-            this.btn_BuscarProveedor.TabIndex = 41;
-            this.btn_BuscarProveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_BuscarProveedor.UseVisualStyleBackColor = true;
+            this.btn_BuscarMarca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_BuscarMarca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_BuscarMarca.FlatAppearance.BorderSize = 0;
+            this.btn_BuscarMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SkyBlue;
+            this.btn_BuscarMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BuscarMarca.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarMarca.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarMarca.Image = ((System.Drawing.Image)(resources.GetObject("btn_BuscarMarca.Image")));
+            this.btn_BuscarMarca.Location = new System.Drawing.Point(275, 140);
+            this.btn_BuscarMarca.Name = "btn_BuscarMarca";
+            this.btn_BuscarMarca.Size = new System.Drawing.Size(36, 39);
+            this.btn_BuscarMarca.TabIndex = 39;
+            this.btn_BuscarMarca.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_BuscarMarca.UseVisualStyleBackColor = true;
             // 
             // Frm_Add_Producto
             // 

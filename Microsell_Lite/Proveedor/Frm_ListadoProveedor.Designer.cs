@@ -35,6 +35,8 @@
             this.lsv_ListaProveedores = new System.Windows.Forms.ListView();
             this.btn_Edit = new System.Windows.Forms.Button();
             this.btn_Add = new System.Windows.Forms.Button();
+            this.lbl_ID = new System.Windows.Forms.Label();
+            this.lbl_Nom = new System.Windows.Forms.Label();
             this.pnl_titu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,6 +90,7 @@
             this.lsv_ListaProveedores.Size = new System.Drawing.Size(300, 339);
             this.lsv_ListaProveedores.TabIndex = 14;
             this.lsv_ListaProveedores.UseCompatibleStateImageBehavior = false;
+            this.lsv_ListaProveedores.DoubleClick += new System.EventHandler(this.lsv_ListaProveedores_DoubleClick);
             // 
             // btn_Edit
             // 
@@ -123,11 +126,31 @@
             this.btn_Add.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Add.UseVisualStyleBackColor = true;
             // 
+            // lbl_ID
+            // 
+            this.lbl_ID.AutoSize = true;
+            this.lbl_ID.Location = new System.Drawing.Point(13, 395);
+            this.lbl_ID.Name = "lbl_ID";
+            this.lbl_ID.Size = new System.Drawing.Size(35, 13);
+            this.lbl_ID.TabIndex = 15;
+            this.lbl_ID.Text = "label2";
+            // 
+            // lbl_Nom
+            // 
+            this.lbl_Nom.AutoSize = true;
+            this.lbl_Nom.Location = new System.Drawing.Point(16, 424);
+            this.lbl_Nom.Name = "lbl_Nom";
+            this.lbl_Nom.Size = new System.Drawing.Size(35, 13);
+            this.lbl_Nom.TabIndex = 16;
+            this.lbl_Nom.Text = "label3";
+            // 
             // Frm_ListadoProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 400);
+            this.ClientSize = new System.Drawing.Size(430, 540);
+            this.Controls.Add(this.lbl_Nom);
+            this.Controls.Add(this.lbl_ID);
             this.Controls.Add(this.pnl_titu);
             this.Controls.Add(this.lsv_ListaProveedores);
             this.Controls.Add(this.btn_Edit);
@@ -135,9 +158,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_ListadoProveedor";
             this.Text = "Frm_ListadoProveedor";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Frm_ListadoProveedor_KeyDown);
             this.pnl_titu.ResumeLayout(false);
             this.pnl_titu.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -149,5 +174,7 @@
         private System.Windows.Forms.ListView lsv_ListaProveedores;
         private System.Windows.Forms.Button btn_Edit;
         private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.Label lbl_ID;
+        private System.Windows.Forms.Label lbl_Nom;
     }
 }

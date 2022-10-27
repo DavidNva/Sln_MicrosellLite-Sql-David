@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Prj_Capa_Negocio;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Prj_Capa_Negocio;
 
 namespace Microsell_Lite.Proveedor
 {
@@ -55,13 +49,50 @@ namespace Microsell_Lite.Proveedor
             RN_Proveedor obj = new RN_Proveedor();
             DataTable dato = new DataTable();
             dato = obj.RN_Mostrar_Todas_Proveedores();
-            if(dato.Rows.Count > 0)
+            if (dato.Rows.Count > 0)
             {
                 Llenar_ListView(dato);
             }
             else
             {
                 lsv_ListaProveedores.Items.Clear();
+            }
+        }
+
+        private void lsv_ListaProveedores_DoubleClick(object sender, EventArgs e)
+        {
+            if (lsv_ListaProveedores.SelectedIndices.Count == 0)
+            {
+                MessageBox.Show("Selecciona un proveedor", "Advertencia de seguridad",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                lbl_ID.Text = lsv_ListaProveedores.SelectedItems[0].SubItems[0].Text;
+                lbl_Nom.Text = lsv_ListaProveedores.SelectedItems[0].SubItems[1].Text;
+                this.Tag = "A";
+                this.Close();
+
+            }
+        }
+
+        private void Frm_ListadoProveedor_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (lsv_ListaProveedores.SelectedIndices.Count == 0)
+                {
+                    MessageBox.Show("Selecciona un proveedor", "Advertencia de seguridad",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    lbl_ID.Text = lsv_ListaProveedores.SelectedItems[0].SubItems[0].Text;
+                    lbl_Nom.Text = lsv_ListaProveedores.SelectedItems[0].SubItems[1].Text;
+                    this.Tag = "A";
+                    this.Close();
+
+                }
             }
         }
     }

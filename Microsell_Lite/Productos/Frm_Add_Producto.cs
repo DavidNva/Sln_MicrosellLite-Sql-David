@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using Prj_Capa_Entidad;
 using Prj_Capa_Negocio;
 using Microsell_Lite.Utilitarios;
+using Microsell_Lite.Proveedor;
+
 
 namespace Microsell_Lite.Productos
 {
@@ -69,6 +71,20 @@ namespace Microsell_Lite.Productos
             
             return true;
         }//Este método valida los 3 campos mas importantes de la tabla proveedor que si o si, deben estar colocados, 
+
+        private void btn_BuscarProveedor_Click(object sender, EventArgs e)
+        {
+            Frm_Filtro fil = new Frm_Filtro();
+            Frm_ListadoProveedor lis = new Frm_ListadoProveedor();
+            fil.Show();
+            lis.ShowDialog();
+            fil.Hide();
+            if(lis.Tag.ToString() == "A")
+            {
+                //txt_ProveedorProd.Text = lis.lbl_nom.Text;
+                
+            }
+        }
         //en este caso, el campo IDProveedor, el Nombre del Proveedor y su RUC
         //Para ello son las validaciones
     }

@@ -23,8 +23,8 @@ namespace Microsell_Lite
             //Application.Run(new Frm_categoria());
             //Application.Run(new Frm_distrito());
             //Application.Run(new Frm_AddProveedor());
-            //Application.Run(new Frm_Add_Producto());
-            Application.Run(new Frm_ListadoProveedor());
+            Application.Run(new Frm_Add_Producto());
+            //Application.Run(new Frm_ListadoProveedor());
         }
     }
 }
